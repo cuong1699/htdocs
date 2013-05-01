@@ -1,0 +1,5 @@
+[11-Apr-2013 02:16:40] PHP Fatal error:  Call to undefined function  wp_pagenavi() in /home/thuytn/public_html/dulich/dulichchauau123.com/wp-content/themes/dlchauau/content.php on line 137
+[11-Apr-2013 08:15:33] PHP Fatal error:  Call to undefined function  wp_pagenavi() in /home/thuytn/public_html/dulich/dulichchauau123.com/wp-content/themes/dlchauau/content.php on line 137
+[11-Apr-2013 17:46:31] PHP Fatal error:  Call to undefined function  wp_pagenavi() in /home/thuytn/public_html/dulich/dulichchauau123.com/wp-content/themes/dlchauau/content.php on line 137
+[12-Apr-2013 04:53:11] PHP Fatal error:  Call to undefined function  wp_pagenavi() in /home/thuytn/public_html/dulich/dulichchauau123.com/wp-content/themes/dlchauau/content.php on line 137
+[12-Apr-2013 05:59:47] PHP Fatal error:  Call to undefined function  wp_pagenavi() in /home/thuytn/public_html/dulich/dulichchauau123.com/wp-content/themes/dlchauau/category.php on line 102

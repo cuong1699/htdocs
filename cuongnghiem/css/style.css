@@ -1,0 +1,955 @@
+
+body {
+
+    padding-top: 50px;
+
+    background:url(../img/bg_wood.jpg) repeat;
+
+    color:#fff;
+
+    font-family:'Titillium Web', Helvetica, Arial, sans-serif;
+
+    font-size: 12px;
+
+}
+
+h5 {
+
+    font-weight: normal!important;
+
+}
+
+h2 {
+
+    font-size: 2.540em!important;
+
+}
+
+h1, h3, h4, h5, h6 {
+
+    line-height: 15px!important;
+
+}
+
+/* ======================
+   Bootstrap Costoumize 
+=========================*/
+
+.img-rounded {
+
+    margin-top: 15px!important;
+
+}
+
+.dl-horizontal dd {
+
+    margin-left: 28px!important;
+
+}
+
+.table {
+
+    margin-left: -5px;
+
+}
+
+.dl-horizontal dt {
+
+    text-align: left!important;
+
+    width: 22px!important;
+
+}
+
+dt, dd {
+
+    line-height: 28px!important;
+
+}
+
+.table th, .table td {
+
+    border-top: none!important;
+
+}
+
+.label-info, .badge-info {
+
+    background-color: rgba(0, 0, 0, 0.5)!important;
+
+}
+
+legend {
+
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5)!important;
+
+}
+
+.tweet_list .tweet_even {
+
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.5)!important;
+
+    border-top: 1px dashed rgba(0, 0, 0, 0.5)!important;
+
+}
+
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+
+    background-color: rgba(0, 0, 0, 0.5)!important;
+
+    border: 0px solid #cccccc;
+
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+
+    -webkit-transition: border linear .2s, box-shadow linear .2s;
+
+    -moz-transition: border linear .2s, box-shadow linear .2s;
+
+    -o-transition: border linear .2s, box-shadow linear .2s;
+
+    transition: border linear .2s, box-shadow linear .2s;
+
+}
+
+.thumbnail {
+
+    border: 0px solid #DDDDDD!important;
+
+    padding: 4px!important;
+
+}
+
+/* ======================
+		Menu Icon  
+=========================*/
+
+.slide {
+
+    padding:5px;
+
+    border-radius:5px;
+
+}
+
+img.main-icon {
+
+    width: 32px;
+
+    height: 32px;
+
+    float: left;
+
+    height: 32px;
+
+    margin-right: 10px;
+
+    margin-top: 5px;
+
+    width: 32px;
+
+}
+
+img.menu-icon {
+
+    height: 16px;
+
+    margin-right: 5px;
+
+    margin-top: -2px;
+
+    width: 16px;
+
+}
+
+/* #play-panel{
+    bottom: -35px;
+    color: rgba(255, 255, 255, 0.4);
+    cursor: pointer;
+    position: absolute;
+    right: 240px;
+}
+#stop-panel{
+    bottom: -35px;
+    color: rgba(255, 255, 255, 0.4);
+    cursor: pointer;
+    position: absolute;
+    right: 260px;
+} */
+
+#btn-nav-play {
+
+    bottom: -47px;
+
+    cursor: pointer;
+
+    position: absolute;
+
+    right: 220px;
+
+}
+
+#next-panel {
+
+    bottom: 150px;
+
+    color: rgba(255, 255, 255, 0.4);
+
+    cursor: pointer;
+
+    position: absolute;
+
+    left: 805px;
+
+    text-shadow: 1px 1px 0 #000000;
+
+}
+
+#prev-panel {
+
+    bottom: 150px;
+
+    color: rgba(255, 255, 255, 0.4);
+
+    cursor: pointer;
+
+    position: absolute;
+
+    right: 770px;
+
+    text-shadow: 1px 1px 0 #000000;
+
+}
+
+.img-picx {
+
+    border-radius: 4px;
+
+    height: 21.625em;
+
+    margin-top:15px;
+
+}
+
+/* ======================
+   Content
+=========================*/
+
+.header {
+
+    display: block;
+
+    width: 100%;
+
+    padding: 0 0 10px;
+
+    margin-bottom: 10px;
+
+    font-size: 21px;
+
+    line-height: 40px;
+
+    color: #ffffff;
+
+    font-weight: normal;
+
+    text-transform: uppercase;
+
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+
+}
+
+.right {
+
+    float:right;
+
+    margin-right:0px;
+
+}
+
+.content p {
+
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.8);
+
+    padding: 0 0 10px;
+
+    width: 95%;
+
+}
+
+.td-name {
+
+    width:50px;
+
+}
+
+.td-dot {
+
+    width:8px;
+
+}
+
+#nest-content, #skill, #twitter-wrap, #instagram-wrap, #map, #contact-form {
+
+    height: 19.000em;
+
+}
+
+#about, #portfolio {
+
+    height: 23.000em;
+
+}
+
+.nest-content2 {
+
+    height: 23.000em;
+
+    overflow:auto;
+
+}
+
+#carousel {
+
+    position:relative;
+
+}
+
+.roundabout-holder {
+
+    height: 350px;
+
+    margin: 0 auto;
+
+    padding: 0 !important;
+
+    width: 550px;
+
+}
+
+.roundabout-moveable-item {
+
+    height:250px;
+
+    width: 400px;
+
+    cursor: pointer;
+
+    display:block;
+
+    left:-20px;
+
+    position: relative;
+
+    background:rgba(51, 88, 161, 0.9);
+
+    color:#fff!important;
+
+    -webkit-box-shadow: 0px 8px 15px 4px rgba(0, 0, 0, 0.5);
+
+    box-shadow: 0px 8px 15px 0px rgba(0, 0, 0, 0.7);
+
+}
+
+.roundabout-moveable-item {
+
+    width: 100%;
+
+    height:100%;
+
+}
+
+#color-dynamic {
+
+    opacity:0.9!important;
+
+}
+
+.roundabout-in-focus {
+
+    cursor: auto;
+
+}
+
+#carousel-descriptions {
+
+    list-style:none;
+
+    display:block;
+
+    width:850px;
+
+    margin:25px auto;
+
+    padding:0;
+
+}
+
+#carousel-descriptions li {
+
+    font-size:24px;
+
+    font-weight:bold;
+
+    text-align:center;
+
+    display:none;
+
+}
+
+#carousel-descriptions li.current {
+
+    display:block;
+
+}
+
+#carousel-controls {
+
+    border-collapse: collapse;
+
+    margin: 25px auto;
+
+    max-width: 585px;
+
+    overflow: auto;
+
+    position: relative;
+
+    text-align: right;
+
+    width: auto;
+
+    z-index: 999;
+
+}
+
+.logo {
+
+    float: left;
+
+    font-size: 12px;
+
+    left: 40px;
+
+    margin-top: -15px;
+
+    position: relative;
+
+    text-shadow: 1px 1px 0px #000000;
+
+    filter: dropshadow(color=#000000, offx=1, offy=1);
+
+}
+
+#carousel-controls span {
+
+    cursor: pointer;
+
+    display: inline-block;
+
+    font-size: 13px;
+
+    margin: 0;
+
+    padding: 5px;
+
+    text-align: center;
+
+    text-shadow: 2px 2px 0px #000000;
+
+    filter: dropshadow(color=#000000, offx=2, offy=2);
+
+    border-bottom: 0px solid #325396;
+
+}
+
+#carousel-controls span:hover {
+
+    border-bottom: 4px solid #ffffff;
+
+}
+
+#carousel-controls .current {
+
+    border-bottom: 4px solid #325396;
+
+}
+
+.download {
+
+    font-size: 12px;
+
+    float:right;
+
+    text-transform: none;
+
+    color:rgba(255, 255, 255, 0.7);
+
+    margin-top: 5px;
+
+    cursor:pointer;
+
+}
+
+/* ======================
+		Instagram Social
+=========================*/
+
+#instagram {
+
+    margin:0;
+
+    padding:0;
+
+    overflow:hidden;
+
+}
+
+#instagram li {
+
+    float: left;
+
+    list-style: none outside none;
+
+    /*   margin: 0 5px 5px 0; */
+
+    width: 6.500em;
+
+}
+
+/* ======================
+		Portfolio
+=========================*/
+
+.portfolio-thumbnails {
+
+    margin:0;
+
+    padding:0;
+
+    overflow:hidden;
+
+}
+
+.portfolio-thumbnails li {
+
+    float: left;
+
+    list-style: none outside none;
+
+    width: 137px;
+
+    height:95px;
+
+}
+
+/* ======================
+		Tweeter Social
+=========================*/
+
+.tweet, .query {
+
+    font-family:'Titillium Web', Helvetica, Arial, sans-serif;
+
+    font-size: 12px;
+
+    color: #fff;
+
+}
+
+.tweet_list {
+
+    -webkit-border-radius: 0.5em;
+
+    -moz-border-radius: 0.5em;
+
+    border-radius: 0.5em;
+
+    list-style: none;
+
+    margin: 0;
+
+    padding: 0;
+
+    overflow-y: hidden;
+
+}
+
+.tweet_list li {
+
+    overflow-y: auto;
+
+    overflow-x: hidden;
+
+    padding: 0.5em;
+
+    list-style-type: none;
+
+    line-height: 14px;
+
+}
+
+.tweet_time {
+
+}
+
+.tweet_list li a {
+
+    color: rgba(0, 0, 0, 0.8);
+
+    font-weight: bold;
+
+    padding: 1px;
+
+}
+
+.tweet_list .tweet_even {
+
+    border-top: 1px solid #fff;
+
+    border-bottom: 1px solid #fff;
+
+}
+
+.tweet_list .tweet_avatar {
+
+    padding-right: .5em;
+
+    float: left;
+
+}
+
+.tweet_list .tweet_avatar img {
+
+    vertical-align: middle;
+
+    padding:5px 0 10px;
+
+}
+
+/* ======================
+	Style Switcher
+=========================*/
+
+.switcher {
+
+    margin: 0 0 0 5px;
+
+    height:60px;
+
+}
+
+.switcher a {
+
+    display: inline-block;
+
+    float: left;
+
+    height: 20px;
+
+    margin: 5px;
+
+    padding: 0;
+
+    width: 20px;
+
+}
+
+.switcher h5 {
+
+    color:#000;
+
+    font-size:13px;
+
+    font-weight:bold;
+
+    margin:25px 0 0 5px;
+
+    text-transform: uppercase;
+
+}
+
+#switcher-panel a#blue {
+
+    background-color: #1C5EA0;
+
+}
+
+#switcher-panel a#red {
+
+    background-color: #a01c30;
+
+}
+
+#switcher-panel a#green {
+
+    background-color: #378548;
+
+}
+
+#switcher-panel a#cyan {
+
+    background-color: #3c958a;
+
+}
+
+#switcher-panel a#pink {
+
+    background-color: #b7055b;
+
+}
+
+#switcher-panel a#black {
+
+    background-color: #4F4F4F;
+
+}
+
+#switcher-panel a#navy {
+
+    background-color: #001D4F;
+
+}
+
+#switcher-panel a#orange {
+
+    background-color: #e98316;
+
+}
+
+/* ======================
+	Background Switcher
+=========================*/
+
+.bg-switcher {
+
+    margin: 50px 0 0 5px;
+
+}
+
+.bg-switcher a {
+
+    display: inline-block;
+
+    float: left;
+
+    height: 20px;
+
+    margin: 5px;
+
+    padding: 0;
+
+    width: 20px;
+
+}
+
+.bg-switcher h5 {
+
+    color:#000;
+
+    font-size:11px!important;
+
+    font-weight:bold;
+
+    margin:5px 0 0 5px;
+
+    text-transform: uppercase;
+
+}
+
+#bg_switcher a#ash {
+
+    background-image: url(../img/bg_ash.jpg);
+
+}
+
+#bg_switcher a#hatch {
+
+    background-image: url(../img/bg_hatch_grey_dark.jpg);
+
+}
+
+#bg_switcher a#brown_noise {
+
+    background-image: url(../img/bg_brown_noise.png);
+
+}
+
+#bg_switcher a#dark_wood {
+
+    background-image: url(../img/bg_dark_wood.jpg);
+
+}
+
+#bg_switcher a#holes {
+
+    background-image: url(../img/bg_holes.png);
+
+}
+
+#bg_switcher a#honeycomb {
+
+    background-image: url(../img/bg_honeycomb.png);
+
+}
+
+#bg_switcher a#noise {
+
+    background-image: url(../img/bg_noise.png);
+
+}
+
+#bg_switcher a#punched {
+
+    background-image: url(../img/bg_punched.png);
+
+}
+
+#bg_switcher a#silver_noise {
+
+    background-image: url(../img/bg_content.png);
+
+}
+
+#bg_switcher a#squares {
+
+    background-image: url(../img/bg_squares.png);
+
+}
+
+#bg_switcher a#wood {
+
+    background-image: url(../img/bg_wood.jpg);
+
+}
+
+/* ======================
+	Slide Panel
+=========================*/
+
+.wrapper {
+
+    background:#fff;
+
+    height:200px;
+
+    width: 500px;
+
+}
+
+#theme-drawer {
+
+    color:#000;
+
+    float:right;
+
+}
+
+#sidePanel {
+
+    width:500px;
+
+    position:fixed;
+
+    left:-132px;
+
+    top:20%;
+
+}
+
+#panelHandle {
+
+    background:#000;
+
+    border-radius: 0 5px 5px 0;
+
+    cursor: pointer;
+
+    float: left;
+
+    height: 26px;
+
+    padding: 7px;
+
+    width: 26px;
+
+}
+
+#panelContent {
+
+    float:left;
+
+    width:130px;
+
+    height:300px;
+
+    background-color:#EEEEEE;
+
+    border-radius: 0 0 5px 0;
+
+}
+
+#panelHandle p {
+
+    -moz-transform: rotate(90deg);
+
+    -webkit-transform: rotate(90deg);
+
+    color: #FFFFFF;
+
+    font-size: 24px;
+
+    font-weight: bold;
+
+    left: -4px;
+
+    margin: 0;
+
+    padding: 0;
+
+    position: relative;
+
+    top: 26px;
+
+}
+
+/* ======================
+	Skill Set
+=========================*/
+
+#g2, #g3, #g4 {
+
+    width:100px;
+
+    height:80px;
+
+    display: inline-block;
+
+    margin: 0.1em;
+
+}
+
+.gmap {
+
+    border: 0 none;
+
+    height: 150px;
+
+    left: -8px;
+
+    margin: 0;
+
+    overflow: hidden;
+
+    padding: 0;
+
+    position: relative;
+
+    top: -8px;
+
+    width: 400px;
+
+}

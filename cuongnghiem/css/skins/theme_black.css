@@ -1,0 +1,15 @@
+.roundabout-moveable-item {
+	height:250px;
+	width: 400px;
+	cursor: pointer;
+	display:block;
+	left:-10px;
+	position: relative;
+	background-color:rgba(79, 79, 79,0.9)!important;
+	color:#fff!important;	
+	-webkit-box-shadow: 0px 8px 15px 4px rgba(0, 0, 0, 0.5);
+	box-shadow: 0px 8px 15px 0px rgba(0, 0, 0, 0.7);			
+	}
+#carousel-controls .current {
+    border-bottom: 4px solid rgba(79, 79, 79,1.0);
+}
